@@ -16,8 +16,8 @@ There are five error codes you can encounter:
 -**CPNU** ==> "Can't Parse Non-printables Uncoded" if you want to enter a non printable or extended ascii (especially whitespaces) please do it with '\' followed by corresponding ascii code formated.<br>
 -**WHNI** ==> "Wrong Hex(adecimal) Number Input" ==> The programm detected an hexadecimal number input (starting by \x) but that doesn't correspond to hexadecimal writing (if you type a letter that come after f in the alphabet).
 
-## AFTERWORD
+## AFTERWORDS
 
 I made this for me and don't think anyone else will use it to be honest...<br>
-So if you downloaded it, thanks you, hope it serves you well, don't hesitate to send me feedbacks or if you find issues (but in civilised way FFS) and stay hazy~<br>
+So if you downloaded it, thank you, hope it serves you well, don't hesitate to send me feedbacks or if you find issues (but in civilised way FFS) and stay hazy~<br>
 -Hazy_Az
