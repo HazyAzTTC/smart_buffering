@@ -6,7 +6,7 @@
 /*   By: hazy_az <hazyazttv@gmail.com>                    *=*:::++*-..        */
 /*                                                        =+*=+:=**---.       */
 /*   Created: 2026/02/04 16:28:37 by hazy_az              .:=#**+--=**++:     */
-/*   Updated: 2026/02/04 16:28:39 by hazy_az             .:-#=-+*==**+-..     */
+/*   Updated: 2026/02/05 00:35:34 by hazy_az             .:-#=-+*==**+-..     */
 /*                                                       ..-=+==+=+--:..      */
 /*                                                       ...-===+==--::-:.    */
 /*                                                        .-:-===*+=----.     */
@@ -14,15 +14,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include <unistd.h>
 #include <stdlib.h>
 #include "process_str.h"
 #include "usr_oput.h"
 #include "utilities.h"
 
-//verify that the string end doesn't containt unwanted char
+//verify that the string end doesn't contain unwanted char
 char	*verify_string(char *string, int index)
 {
 	while (string[index] < 32 || string[index] > 126)

@@ -30,7 +30,7 @@ release: $(RELEASE)
 
 
 $(RELEASE): $(TARGET)
-	@if test -f $(RELEASE); then mv $(RELEASE) .old/; fi
+	@if test -f $(RELEASE); then mv $(RELEASE) bin/.old/; fi
 	@cp $(TARGET) $(RELEASE)
 	@echo "\033[1;32m/!\\ MADE A RELEASE /!\\ \033[0m\n"
 
