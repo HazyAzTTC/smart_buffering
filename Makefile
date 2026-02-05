@@ -11,7 +11,7 @@ _OBJECTS = $(_SOURCES:.c=.o)
 OBJECTS = $(patsubst %,$(ODIR)/%,$(_OBJECTS))
 
 TARGET = bin/build.test
-RELEASE = bin/smart_buffering
+RELEASE = bin/smart-buffering
 INSTALL = /home/${USER}/.local/bin/smart-buffering
 
 .PHONY: all release install clean fclean rclean iclean re rre ire

@@ -1,4 +1,4 @@
-# smart_buffering
+# smart-buffering
 *C project for getting buffer's size from user input, parsing special characters to be accurate.*
 
 ## QUICK HOW TO USE
